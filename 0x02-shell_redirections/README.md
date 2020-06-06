@@ -1,0 +1,1 @@
+This repository is about the shell and i/o redirections and filters. This folder includes all the 22 task assigned.
