@@ -1,2 +1,2 @@
 #!/bin/bash
-"$string" | sort | uniq
+"$input" | sort | uniq
