@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "$NUM*1.00")
+printf "%0.2f\n" $NUM
