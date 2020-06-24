@@ -1,0 +1,1 @@
+This project is about expansions, shell arithmetics, variables, shell initialization files, alias command and technicalwriting. this folder includes all 17 task assigned.
