@@ -1,266 +1,3 @@
-git add --all
-git commit -m 'task'
-git push
-git pull
-git push
-git commit -m 'task'
-git push
-git add --all
-git commit -m 'task'
-git status
-git checkout 
-git status
-git checkout -- holbertonschool-low_level_programming
-git checkout -- estudio_individual
-git status
-git add
-git add .
-git status
-git add holbertonschool-low_level_programming
-git status
-git revert --no-commit 8e22dd2..HEAD
-git revert --no-commit 8e22dd2..HEAD -m 'porque aja'
-git reset 8e22dd2
-git add --all
-git commit -m 'task'
-git push
-git checkout 
-git reset --hard [previous Commit SHA id here]
-git reset --hard 8e22dd2d494ef14d4e351821434027a377b44d31
-git push origin master -f
-git status
-git add --all
-git commit -m 'fix'
-git config --global user.email "sebasvalencia726@gmail.com"
-git config --global user.name "sebasvalencia726"
-git add --all
-git config --global user.name "sebasvalencia726"
-git add --all
-git commit -m 'fix'
-git push
-ls
-cd holberton-system_engineering-devops/
-ls
-git push
-git push origin master
-git push
-git push origin master
-git push
-git config --global push.default simple
-git push
-git config --global user.name "sebasvalencia726"
-git config --global credential.helper store
-git push
-git remote set-url origin https://github.com/sebasvalencia726
-git push
-git remote set-url origin https://github.com/sebasvalencia726/holbertonschool-low_level_programming
-git push
-git config --global credential.helper store
-git remote set-url origin https://sebasvalencia726:Tope1994*@github.com/sebasvalencia726/holbertonschool-low_level_programming/
-git push
-git add --all
-git commit -m 'help'
-git push
-git remote set-url origin https://sebasvalencia726:Tope1994*@github.com/sebasvalencia726/holberton-system_engineering-devops/
-git add --all
-git commit -m 'fix'
-git push
-git status
-ls
-cd ..
-ls
-holbertonschool-low_level_programming/
-cd holbertonschool-low_level_programming/
-ls
-git remote set-url origin https://sebasvalencia726:Tope1994*@github.com/sebasvalencia726/holberton-system_engineering-devops/
-git add --all
-git commit -m 'task'
-git push
-git pull
-cd ..
-ls
-cd holberton-system_engineering-devops/
-ls
-em README.md 
-emacs README.md 
-rm README.md 
-LS
-ls
-git pull
-git push
-cd ..
-cd holbertonschool-low_level_programming/
-ls
-git pull
-ls
-cd 0x03-debugging/
-ls
-cd ..
-cd 0x03-shell_variables_expansions/
-ls
-cd ..
-git pull
-git config --list
-git remote set-url origin https://sebasvalencia726:Tope1994*@github.com/sebasvalencia726/
-git config --list
-git pull
-cd ..
-ls
-git pull
-https://sebasvalencia726:Tope1994*@github.com/sebasvalencia726/holberton-system_engineering-devops/
-git clone https://github.com/sebasvalencia726/holbertonschool-low_level_programming.git
-cd
-git init
-git status
-cd holbertonschool-low_level_programming/
-ls
-rm -r 0x00-shell_basics/
-ls
-rm -r 0x01-shell_permissions/ 0x02-shell_redirections/
-ls
-rm -r 0x03-shell_variables_expansions/
-ls
-rm README.md 
-LS
-ls
-git status
-git push
-git add --all
-git commit 'task'
-git commit -m 'task'
-git push
-git remote set-url origin git@github.com:sebasvalencia726/holbertonschool-low_level_programming.git
-git add --all
-git commit -m 'task'
-git push
-git remote set-url origin git@github.com:sebasvalencia726/holbertonschool-low_level_programming.git
-git config --global credential.helper store
-git config --list
-git init
-git status
-git push
-git remote set-url origin https://github.com/sebasvalencia726/holbertonschool-low_level_programming.git
-git push
-ls
-alias add="git add --all"
-alias com="git commit -m"
-alias push="git push"
-add
-com 'task'
-push
-git status
-cd 0x05-pointers_arrays_strings/
-em 2-strlen.c
-alias em="emacs"
-em 2-strlen.c
-add
-com 'task'
-push
-em 5-rev_string.c
-betty 5-rev_string.c
-cd
-emacs
-find *init
-find *emacs
-find *.emacs
-cd
-su
-ls -a
-cd .emacs.d
-ls
-ls -a
-find -type f *.emacs
-ls
-cd auto-save-list/
-ls
-ls -a
-cd
-ls
-ls -a
-emacs
-cd
-cd .emacs.d
-emacs int.el
-emacs
-g
-fg
-em init.el
-emacs
-em init.el
-cd
-cd holbertonschool-low_level_programming/
-cd 0x05-pointers_arrays_strings/
-em 5-rev_string.c
-betty 5-rev_string.c
-em 5-rev_string.c
-em init.el
-cd .emacs.d
-cd
-ls
-ls -a
-cd .emacs.d
-ls
-em init.el
-em debugg inti
-em init.el
-em --debug-init
-em init.el
-cd
-cd holbertonschool-low_level_programming/
-cd 0x05-pointers_arrays_strings/
-bet 5-rev_string.c
-alias bet="betty"
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-cd
-ls -a
-cd .emacs.d
-em init.el
-cd
-cd holbertonschool-low_level_programming/
-cd 0x05-pointers_arrays_strings/
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em test.c
-cd
-ls -a
-cd .emacs.d/
-em init.el
-cd
-cd holbertonschool-low_level_programming/
-cd 0x05-pointers_arrays_strings/
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-cd
-ls -a
-cd .emacs.d/
-em init.el
-cd
-cd holbertonschool-low_level_programming/
-cd 0x05-pointers_arrays_strings/
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em 4-print_rev.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em 5-rev_string.c
-bet 5-rev_string.c
-em holberton.h 
 bet 5-rev_string.c
 em 5-rev_string.c
 bet 5-rev_string.c
@@ -351,3 +88,413 @@ gcc -Wall -pedantic -Werror -Wextra 2-main.c 2-strlen.c -o 2-strlen
 add
 com 'task'
 push
+ls
+cd holbertonschool-low_level_programming/
+cd 0x05-pointers_arrays_strings/
+emacs 7-puts_half.c
+emacs 5-rev_string.c
+emacs 7-puts_half.c 
+emacs holberton.h 
+betty 7-puts_half.c
+emacs 7-puts_half.c
+betty 7-puts_half.c
+emacs 7-main.c
+gcc -Wall -pedantic -Werror -Wextra _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
+./7-puts_half 
+git add --all
+git commit -m 'task'
+git push
+emacs 7-puts_half.c
+git add --all
+git commit -m 'task'
+git push
+emacs 4-print_rev.c
+cd
+cd holberton-system_engineering-devops/
+ls
+cd ..
+ls
+rm example~ 
+add
+alias add="git add --all"
+alias com="git commit -m"
+alias push="git push"
+add
+com 'test'
+push
+cd holbertonschool-low_level_programming/
+cd 0x05-pointers_arrays_strings/
+ls
+em 6-puts2.c
+alias em="emacs"
+em 6-puts2.c
+alias bet="betty"
+bet 6-puts2.c 
+em 6-main.c
+em holberton.h 
+gcc -Wall -pedantic -Werror -Wextra _putchar.c 6-main.c 6-puts2.c -o 6-puts2
+./6-puts2 
+add
+com 'task'
+push
+em 6-puts2.c
+bet 6-puts2.c 
+gcc -Wall -pedantic -Werror -Wextra _putchar.c 6-main.c 6-puts2.c -o 6-puts2
+./6-puts2 
+add
+com 'task'
+push
+cd
+vagrant ssh-config
+ls
+cd holbertonschool-low_level_programming/
+cd 0x05-pointers_arrays_strings/
+alias em="emacs"
+alias add="git add --all"
+alias com="git commit -m"
+alias push="git push"
+alias bet="betty"
+em 8-print_array.c
+bet 8-print_array.c 
+em 8-print_array.c
+bet 8-print_array.c 
+em holberton.h 
+em 8-main.c
+gcc -Wall -pedantic -Werror -Wextra 8-main.c 8-print_array.c -o 8-print_array
+em 8-print_array.c
+bet 8-print_array.c 
+gcc -Wall -pedantic -Werror -Wextra 8-main.c 8-print_array.c -o 8-print_array
+em 8-print_array.c
+bet 8-print_array.c 
+gcc -Wall -pedantic -Werror -Wextra 8-main.c 8-print_array.c -o 8-print_array
+./8-print_array 
+add
+com 'task'
+push
+cd ..
+ls
+em README.md
+add
+com 'task'
+push
+cd 0x05-pointers_arrays_strings/
+em 6-puts2.c
+em holberton.h 
+em 6-puts2.c
+add
+com 'task'
+push
+em 9-strcpy.c
+bet 9-strcpy.c 
+em 9-strcpy.c
+bet 9-strcpy.c 
+em 9-strcpy.c
+bet 9-strcpy.c 
+em 9-main.c
+em holberton.h 
+gcc -Wall -pedantic -Werror -Wextra 9-main.c 9-strcpy.c -o 9-strcpy
+./9-strcpy
+add
+alias com="git commit -m 'task'"
+com
+push
+cd
+em 
+ls -a
+cd .emacs.d
+ls -a
+em init.el
+em init.el
+em
+em init.el
+em 
+em init.el
+em
+em init.el
+em init.el
+em --debug-init
+ls -a
+em init.el
+em init.el
+em
+em init.el
+em
+em init.el
+em
+em init.el
+em
+em init.el
+em
+em init.el
+cd
+cd holbertonschool-low_level_programming/
+cd 0x05-pointers_arrays_strings/
+em 9-strcpy.c
+man atoi
+em 100-atoi.c
+bet 100-atoi.c 
+em 100-atoi.c 
+bet 100-atoi.c 
+em holberton.h 
+add
+com
+push
+em
+mkdir head_first_c
+ls
+cd head_first_c
+LS
+ls
+em cards.c
+alias em="emacs"
+alias add="git add --all"
+alias com="git commit -m"
+alias push="git push --all"
+em cards.c
+alias bet="betty"
+bet cards.c 
+em cards.c 
+bet cards.c 
+gcc cards.c -o cards
+./cards
+ls
+em cards_counting_1.c
+bet cards_counting_1.c 
+em cards_counting_1.c 
+bet cards_counting_1.c 
+gcc cards_counting_1.c -o cards_counting && ./cards_counting
+./cards_counting 
+cd ..
+$ git clone --bare https://github.com/sebasvalencia726/estudio_individual.git
+git clone --bare https://github.com/sebasvalencia726/estudio_individual.git
+git push --mirror https://github.com/sebasvalencia726/estudio_individual.git
+ls
+cd head_first_c/
+ls
+mv cards cards.c cards_counting cards_counting.c estudio_individual.git
+cd ..
+ls
+cd estudio_individual.git/
+ls
+rm -r branches/
+ls
+rem config
+rm congig
+rm config
+ls
+rm description 
+rm HEAD
+LS
+ls
+rm hooks info
+rm -r hooks info
+ls
+rm -r objects refs
+add
+com 'task'
+push
+ls
+push
+ls
+cd ..
+ls
+rm -d estudio_individual.git/
+ls
+add
+com 'task'
+push
+ls
+add
+com 'task'
+push
+git status
+ls
+rm -r boom
+ls
+cd boom
+ls
+cd ..
+rm -r boom
+sudo rm -r boom
+ls
+git status
+push
+git checkout 
+push
+git pull
+git remote add origin https://github.com/sebasvalencia726/head_first_c.git
+ls
+add
+com 'task'
+push
+git remote set-url origin https://github.com/sebasvalencia726/holberton-system_engineering-devops.git/ 
+git remote -v
+add 
+com 'test'
+push
+git pull
+ls
+em README.md 
+LS
+ls
+add
+com 'task'
+push
+cd head_first_c/
+ls
+bet cards.c
+cd
+ls
+cd
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd
+ls
+cd holberton-system_engineering-devops/
+ls
+cd ..
+ls
+rm -r 0x00-shell_basics 0x01-shell_permissions 
+rm -r 0x02-shell_redirections 0x03-shell_variables_expansions
+ls
+git clone --bare https://github.com/sebasvalencia726/estudio_individual.git
+ls
+cd head_first_c/
+ls
+mv cards /estudio_individual.git
+sudo mv cards /estudio_individual.git
+sudo mv cards.c cards_counting cards_counting_1.c /estudio_individual.git
+ls
+sudo mv cards.c /estudio_individual.git
+sudp mv cards_counting /estudio_individual.git 
+sudo mv cards_counting /estudio_individual.git 
+sudo cards_counting_1.c /estudio_individual.git 
+ls
+sudo mv cards_counting_1.c /estudio_individual.git 
+ls
+cd ..
+ls
+rm head_first_c/
+rm -r head_first_c/
+ls
+cd estudio_individual.git/
+ls
+cd ..
+ls
+sudo rm -r estudio_individual.git/
+ls
+add
+com 'task'
+push
+ls
+echo "# estudio_individual" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sebasvalencia726/estudio_individual.git
+git push -u origin master
+ls
+echo "# estudio_individual" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sebasvalencia726/estudio_individual.git
+git push -u origin mastersds
+git clone https://github.com/sebasvalencia726/estudio_individual.git
+ls
+cd estudio_individual/
+ls
+em cards.c
+add
+com 'first'
+push
+gcc cards.c -o cards && ./cards
+ls
+em cards_counting_1.c
+gcc cards_counting_1.c -o cards_counting_1 && ./cards_counting
+gcc cards_counting_1.c -o cards_counting_1 && ./cards_counting_1
+em cards_with_cases.c
+gcc cards_with_cases.c -o cards_with_cases
+em cards_with_cases.c
+gcc cards_with_cases.c -o cards_with_cases
+./cards_with_cases 
+add
+com 'two'
+push
+ls
+em card_counter.c
+bet cards_counter.c
+ls
+bet card_counter.c 
+gcc card_counter.c -o card_counter && ./card_counter
+cd 
+ls
+clear
+ls
+cd holberton-system_engineering-devops/
+ls
+add
+com 'task
+
+q
+ls
+add
+com 'task'
+push
+git push origin master
+push
+add
+com 'task'
+push
+ls
+cd 0x02-shell_redirections/
+ls
+em 13-unique.c
+em 13-unique 
+add
+com 'task'
+push
+cd 
+cd /proc
+ls
+cd home
+$home 
+mkdir mock
+sudo mkdir mock
+cd ..
+mkdir mock
+sudo mkdir mock
+ls
+cd mock
+cd /etc/passwd
+em test
+sudo em test
+cd ..
+ls
+cd
+ls
+em test
+gcc test.c -o test && ./test
+mv test test.c
+gcc test.c -o test && ./test
+em test.c 
+gcc test.c -o test && ./test
+em test.c
+gcc test.c -o test && ./test
+em test.c
+gcc test.c -o test && ./test
+em test.c
+gcc test.c -o test && ./test
+bet test.c
+em test.c
+gcc test.c -o test && ./test
+gcc test.c -o test
+./test
+em test.c
+gcc test.c -o test
+./test
+z
