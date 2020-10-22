@@ -7,10 +7,10 @@ i=1
 while [ $i -lt 21 ]
 do
 	case $i in
-    	[0-3]|10)	echo $i
+    	   [0-3]|10)	echo $i
         ;;
         [4]) echo $i
-             echo "bad luck form China"
+             echo "bad luck from China"
         ;;
         [5-8]) echo $i
         ;;
