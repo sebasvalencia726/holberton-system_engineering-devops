@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times using while lopp
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i != 8 ];
+		then
+			echo "Holberton School"
+		else
+			echo "Holberton School"
+			echo "Hi"
+	fi
+	i=$(( i+1 ))
+done

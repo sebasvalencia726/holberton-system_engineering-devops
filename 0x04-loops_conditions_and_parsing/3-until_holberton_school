@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times using while lopp
+# This script is displaying "Holberton School" 10 times using until lopp
 i=0
 until [ $i -gt 9 ]
 do
