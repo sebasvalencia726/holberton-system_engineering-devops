@@ -10,7 +10,7 @@ do
     	[0-3]|10)	echo $i
         ;;
         [4]) echo $i
-             echo "bad luck"
+             echo "bad luck form China"
         ;;
         [5-8]) echo $i
         ;;
