@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that displays the content of the file /etc/passwd, using the while loop + IFS.
+file=apache-access.log
+while IFS=: read -r h _ _ t _ _ _ _ _
+do
+    echo "$h $t" | awk '{print $1" "$10}'
+done < "$file"
