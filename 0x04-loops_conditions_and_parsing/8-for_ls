@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Bash script that displays the content of the current directory
-for file in $(pwd)
+for file in $(dir)
 do
-    ls "$file" --format=single-column
+    y=${file%}
+    echo "${y##*-}"
 done
