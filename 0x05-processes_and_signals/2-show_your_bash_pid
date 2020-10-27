@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that displays a list of currently running processes.
+ps aux --forest | sed -n '/bash/p'
+# shellcheck disable=SC2009
