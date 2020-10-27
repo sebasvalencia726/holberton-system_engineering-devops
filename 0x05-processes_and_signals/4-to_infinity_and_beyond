@@ -5,8 +5,5 @@ while [ $i -lt 1 ]
 do
     echo "To infinity and beyond"
     sleep 2
-    trap SIGTERM
-        echo "I am invincible!!!"
-
     i=$(( i-1 ))
 done
