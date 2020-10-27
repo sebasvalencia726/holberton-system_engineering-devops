@@ -11,9 +11,9 @@ while [ $i -lt 1 ]
 do
     echo "To infinity and beyond"
     sleep 2
-    $file_location < "echo $BASHPID"
+    echo $BASHPID > $file_location
     trap "echo I hate the kill command" SIGTERM
     trap "echo Y U no love me?!" SIGINT
-    trap "{ rm -f $file_location; }" SIGQUIT SIGTERM
+    trap '{ rm -f $file_location; }' EXIT
     i=$(( i-1 ))
 done
