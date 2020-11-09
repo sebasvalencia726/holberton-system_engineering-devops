@@ -6,4 +6,3 @@ ARGV.each do|a|
     end
     puts""
 end
-
