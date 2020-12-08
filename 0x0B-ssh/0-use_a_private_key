@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # script that uses ssh to connect to your server using the
 # private key ~/.ssh/holberton with the user ubuntutar -czvf /path/to/archive.tar.gz /path/to/directory-or-file
-ssh ubuntu@35.231.13.133
+ssh -i ~/.ssh/holberton ubuntu@35.231.13.133
