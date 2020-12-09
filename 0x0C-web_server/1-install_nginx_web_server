@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# script that configures a new Ubuntu machine
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo mkdir -p /var/www/html
+sudo chown -R "$USER:$USER" /var/www/html
+echo "Holberton School" >> /var/www/html/index.html
+sudo service nginx start
