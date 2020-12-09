@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# containing commands to automatically configure a Ubuntu machine
+# that Configure Nginx server to have a custom 404 page that
+# contains the string Ceci n'est pas une page.
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo mkdir -p /var/www/html
+sudo chown -R "$USER:$USER" /var/www/html
+echo "Holberton School" >> /var/www/html/index.html
+echo "Ceci n'est pas une page" >> /var/www/html/custom_404.html
+new="_;\n\n\trewrite \/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;\n\n\terror_page 404 \/custom_404.html;\n\tlocation = \/custom_404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+sudo sed -i "s/_;/$new/" /etc/nginx/sites-available/default
+sudo service nginx start
