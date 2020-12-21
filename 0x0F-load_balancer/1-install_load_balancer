@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Configure HAproxy using a roundrobin algorithm
+sudo apt-get -y update
+sudo apt-get -y install haproxy=1.6.\*
+sudo chown -R "$USER:$USER" /etc/haproxy
+str="
+listen firstbalance
+        bind *:80
+        balance roundrobin
+        server 1867-web-01 35.231.13.133 check
+        server 1867-web-02 35.196.88.5 check"
+echo "$str" >> /etc/haproxy/haproxy.cfg
+sudo service haproxy start
+sudo service haproxy restart
