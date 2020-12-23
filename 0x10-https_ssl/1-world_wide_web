@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# script that will display information about subdomains.
+dig_grep_awk ()
+{
+    dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk -v var="$2" 'NR > 1 {print "The subdomain " var " is a " $4 " record and points to " $5}'
+}
+if [ "$2" ]
+then
+    dig_grep_awk "$1" "$2"
+else
+    dig_grep_awk "$1" www
+    dig_grep_awk "$1" lb-01
+    dig_grep_awk "$1" web-01
+    dig_grep_awk "$1" web-02
+fi
