@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# script that configures a container so that Nginx is running as the nginx user
+sed -i "s/ 80 / 8080 /" /etc/nginx/sites-enabled/default
+sed -i "s/:80 /:8080 /" /etc/nginx/sites-enabled/default
+sed -i "s/ 80 / 8080 /" /etc/nginx/sites-available/default
+sed -i "s/:80 /:8080 /" /etc/nginx/sites-available/default
+touch /var/run/nginx.pid
+chown -R nginx:nginx /var/run/nginx.pid
+chown -R nginx:nginx /etc/nginx/
+chmod 440 /etc/nginx/nginx.conf
+echo "nginx ALL=(ALL) NOPASSWD: /usr/sbin/service nginx start,/usr/sbin/service nginx stop,/usr/sbin/service nginx restart" | (sudo su -c 'EDITOR="tee" visudo -f /etc/sudoers.d/nginx')
+pkill -9 apache2
+sudo -u nginx service nginx start
