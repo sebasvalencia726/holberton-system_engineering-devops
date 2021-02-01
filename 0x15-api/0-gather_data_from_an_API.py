@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# for a given employee ID, returns information about his/her TODO list
+"""for a given employee ID, returns
+information about his/her TODO list"""
 
 import requests as r
 from sys import argv

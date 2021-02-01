@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# script to export data in the CSV format.
+"""script to export data in the CSV format."""
 
 import csv
 import requests as r
