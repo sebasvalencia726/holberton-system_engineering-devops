@@ -46,7 +46,6 @@ def count_words(subreddit, word_list):
                   )
         g.raise_for_status()
         the_list = recurse(subreddit)
-        count = 0
         new_list = []
         lenght = len(word_list)
         for i in range(lenght):
@@ -54,10 +53,12 @@ def count_words(subreddit, word_list):
         new_dict = dict(zip(word_list, new_list))
         res = [word for line in the_list for word in line.split()]
         for word in word_list:
-            if word.rstrip() in res:
-                count += 1
+            if word in res:
                 new_dict[word] += 1
-        for key, val in new_dict.items():
-            print('{}: {}'.format(key, val))
+        if all(value == 0 for value in new_dict.values()):
+            print()
+        else:
+            for key, val in new_dict.items():
+                print('{}: {}'.format(key, val))
     except Exception as e:
-        return None
+        print()
