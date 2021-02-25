@@ -12,8 +12,6 @@ For this project, students are expected to look at these concepts:
 * Server
 * Web stack debugging
 
-![Holberton image](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210225T130320Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d65953731cd3e96578e97a008a2d7ae5ad96168bdd256e4736426d5ef73ee473)
-
 ## Background Context
 
 Your web infrastructure is already serving web pages via Nginx that you installed in your first web stack project. While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your Nginx and make is serve your Airbnb clone project.
